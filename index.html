@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <!-- Head -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Cory Fishburn's Portfolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Cory, Fishburn">
+  <meta name="author" content="Cory Fishburn">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cory Fishburn's Portfolio</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="https://icons.iconarchive.com/icons/aaron-sinuhe/alphabet-file-folder/256/C-icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">        
+</head>
+<!-- Body -->
+<body>
+  <div id="navbar">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+  </div>
+  <!-- Header -->
+  <section id="sidepanel">
+    <div>
+        <div class="card">
+            <div class="button-container">
+                <button class="closebtn" onclick="closeNav()">&#9776;</button>
+                <img src="Images/Cory.jpg" alt="Cory Fishburn" style="width:100%">
+            </div>
+            <h1 class="name">Cory Fishburn</h1>
+            <p class="job-title">Software Devloper</p>
+            <div>
+                <table id="social-table">
+                    <tr>
+                        <td><a href="Images/Cory Fishburn Resume.pdf" target="_blank"><i class="fa fa-external-link-square"></i></a></td>
+                        <td><a href="mailto:info@example.com"><i class="fa fa-envelope-square"></i></a></td>
+                        <td><a href="https://www.linkedin.com/in/CoryFishburn/" target="_blank"><i class="fa fa-linkedin-square"></i></a> </td>
+                        <td><a href="https://github.com/CoryFishi/" target="_blank"><i class="fa fa-github-square"></i></a></td>
+                    </tr>   
+                </table>
+            </div>
+            <p>
+                <table id="sidebar-button-table">
+                    <tr><button class="side-btn" id="about-button">About</button></tr>
+                    <tr><button class="side-btn" id="projects-button">Projects</button></tr>
+                    <tr><button class="side-btn" id="contact-button">Contact</button></tr>  
+                </table>
+            </p>
+        </div>  
+    </div>
+  </section>
+  
+  <!-- about Section -->
+  <section class="about" id="about">
+    <h1>I am Cory Fishburn</h1>
+    <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Developer.", "Leader","Team player." ]'>
+           </span>
+  </section>
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="row"> 
+        <div class="column" >
+            <p>Project 1</p>
+            <div>
+            </div>
+        </div>
+        <div class="column">
+            <p>Project 1</p>
+            <img src="https://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <p>Project 1</p>
+            <img src="https://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <p>Project 1</p>
+            <img src="https://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <p>Project 1</p>
+            <img src="https://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <p>Project 1</p>
+            <img src="https://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" style="width:100%">
+        </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="row2">
+        <div class="column2">
+            <img src="Images/Cory.jpg" width="100%" height="100%">
+        </div>
+        <div class="column2">
+            <img src="Images/Cory.jpg"width="100%" height="100%">
+        </div>
+    </div>
+  </section>
+  <img src="https://www.yaya.today/img/invision/try-me-left.png" width="100" height="50" id="ClickMe">
+  <!--Scripts-->
+  <script src="src/main.js"></script>
+</body>
+<!-- Footer -->
+<footer>
+    <br>
+    <table id="social-table-footer">
+        <tr>
+            <td><a href="Images/Cory Fishburn Resume.pdf" target="_blank"><i class="fa fa-external-link-square"></i></a></td>
+            <td><a href="mailto:info@example.com"><i class="fa fa-envelope-square"></i></a></td>
+            <td><a href="https://www.linkedin.com/in/CoryFishburn/" target="_blank"><i class="fa fa-linkedin-square"></i></a></td>
+            <td><a href="https://github.com/CoryFishi/" target="_blank"><i class="fa fa-github-square"></i></a></td>
+        </tr>
+    </table>
+    <p style="font-size: 10px;">Thank you.</p>
+</footer>
+</html>
