@@ -17,13 +17,17 @@ contactButton.addEventListener("click", function() {
 
 //Nav bar
 function openNav() {
-  document.getElementById("sidepanel").style.width = "300px";
-  document.getElementById("sidepanel").style.height = "490px";
-}
+  document.getElementById("sidepanel").style.width = "230px";
+  document.getElementById("sidepanel").style.height = "310px";
+  document.getElementById("openbtn").style.top = "-40px";
+  document.getElementById("openbtn").style.left = "-40px";
+  }
 function closeNav() {
   document.getElementById("sidepanel").style.width = "0px";
   document.getElementById("sidepanel").style.height = "0px";
-}
+  document.getElementById("openbtn").style.top = "10px";
+  document.getElementById("openbtn").style.left = "10px";
+  }
 window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
